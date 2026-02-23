@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4</title>
+</head>
+<body>
+  
+    <form>
+        <label for="username">Username:</label>
+        <input 
+            type="text" 
+            id="username"     
+            name="username" 
+            maxlength="10" 
+            required 
+            placeholder="Max 10 characters"
+        >
+
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input 
+            type="number"
+            id="age"          
+            name="age" 
+            min="18" 
+            max="60" 
+            placeholder="18-60"
+        >
+
+        <br><br>
+
+        <label for="language">Favorite Programming Language:</label>
+        <input 
+            type="text" 
+            id="language" 
+            name="language" 
+            list="languages" 
+            placeholder="Choose or type"
+        >
+
+        <datalist id="languages">
+            <option value="HTML">
+            <option value="CSS">
+            <option value="JavaScript">
+            <option value="Python">
+        </datalist>
+        <br><br>
+
+        <input type="submit" value="Submit Survey">
+    </form>  
+
+</body>
+</html>
