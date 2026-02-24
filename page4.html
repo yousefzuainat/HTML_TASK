@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill in your information</title>
+</head>
+<body>
+    <h1>Fill in your information</h1>
+    
+    <form>
+        <fieldset>
+        <legend>Form</legend>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li>
+                <strong>First name:</strong>
+                <br>
+                <input type="text" name="firstname">
+            </li>
+            <li>
+                <strong>Last name:</strong>
+                <br>
+                <input type="text" name="lastname">
+            </li>
+            <li>
+                <strong>Email:</strong>
+                <br>
+                <input type="email" name="email">
+            </li>
+        </ul>
+    
+        <hr>
+        
+        <h2>Your Gender</h2>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female 
+        <br>
+        
+        <h2>Favorite Subjects</h2>
+        <input type="checkbox" name="subject" value="cpp"> C++
+        <input type="checkbox" name="subject" value="java"> Java
+        <input type="checkbox" name="subject" value="csharp"> C#
+        <input type="checkbox" name="subject" value="php"> PHP
+        <input type="checkbox" name="subject" value="sql"> SQL
+        
+        <h2>Your City</h2>
+        City: 
+        <select name="city">
+            <option value="irbid">Irbid</option>
+            <option value="amman">Amman</option>
+            <option value="zarqa" selected>Zarqa</option>
+            <option value="aqaba">Aqaba</option>
+        </select>
+        
+        <br><br>
+        
+        Upload Image: 
+        <input type="file" name="image">
+        
+        <br><br>
+        
+        Write About yourself:<br>
+        <textarea name="about" rows="5" cols="40" placeholder="Write Here"></textarea>
+        
+        <br><br>
+        
+        <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>
+
+    <hr>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Order Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td><input type="text" name="name" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td><input type="text" name="address" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>City:</strong></td>
+                <td><input type="text" name="city" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>State:</strong></td>
+                <td><input type="text" name="state" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Zip:</strong></td>
+                <td><input type="text" name="zip" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Magazine:</strong></td>
+                <td><input type="text" name="magazine" value="Newsweek" size="30"></td>
+            </tr>
+            <tr>
+                <td><strong>Subscription:</strong></td>
+                <td>
+                    1 year <input type="radio" name="subscription" value="1year">
+                    2 years <input type="radio" name="subscription" value="2years">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Send Your Order"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+</html>

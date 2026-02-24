@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A demonstration of semantic HTML and accessibility features.">
+    <title>Semantic HTML & Accessibility</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" aria-label="Homepage">SemanticWeb</a>
+        
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <section id="home">
+            <h1>Building Accessible Interfaces</h1>
+            <p>Welcome to our platform focused on semantic HTML and web accessibility.</p>
+            
+            <div>
+                <img src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&q=80&w=1200" 
+                     alt="A beautiful mountainous landscape showcasing a serene lake and snow-capped peaks" 
+                     loading="lazy" width="600">
+            </div>
+        </section>
+
+        <h2 id="features">Our Core Features</h2>
+        
+        <div>
+            <article>
+                <h3>Screen Reader Support</h3>
+                <p>By properly implementing ARIA labels and roles, our components are accessible to users relying on assistive technologies like screen readers.</p>
+                <a href="#" aria-label="Read more about screen reader support">Learn More</a>
+            </article>
+
+            <article>
+                <h3>Semantic Structure</h3>
+                <p>We use appropriate HTML5 landmark elements like header, nav, main, article, and footer to define the document structure natively.</p>
+                <a href="#" aria-label="Read more about semantic structure">Learn More</a>
+            </article>
+
+            <article>
+                <h3>Keyboard Navigation</h3>
+                <p>All interactive elements are reachable and operable strictly through the keyboard.</p>
+                <a href="#" aria-label="Read more about keyboard navigation">Learn More</a>
+            </article>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SemanticWeb Demo. Built with accessibility in mind.</p>
+    </footer>
+
+</body>
+</html>
